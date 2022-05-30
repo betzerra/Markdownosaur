@@ -18,7 +18,7 @@ public struct Markdownosaur: MarkupVisitor {
     }()
 
     let monospacedFont: UIFont = {
-        return UIFont.monospacedDigitSystemFont(ofSize: baseFontSize, weight: .regular)
+        return UIFont.monospacedSystemFont(ofSize: baseFontSize, weight: .regular)
     }()
 
     var baseAttributes: [NSAttributedString.Key: Any] {
